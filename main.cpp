@@ -42,5 +42,6 @@ int main() {
     }
     llu FactorialRecursiv (int n) {
         
-       return f;
+       if(n <= 1) return 1;
+        return FactorialRecursiv(n-1)*n;
     }
